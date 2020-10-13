@@ -17,7 +17,7 @@ FROM alpine:3.8
 ARG GO_VERSION=1.13.9
 
 # KOPS_GITISH: Modify to build at an explicit tag/gitish
-ARG KOPS_GITISH=release
+ARG KOPS_GITISH=release-1.18
 
 # KUBECTL_SOURCE: Change to kubernetes-dev/ci for CI
 ARG KUBECTL_SOURCE=kubernetes-release/release
