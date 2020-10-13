@@ -54,4 +54,4 @@ RUN set -ex && \
         \
         echo "=== Built kops at ${KOPS_GITISH}, fetched kubectl ${KUBECTL_VERSION} ==="
 
-ENTRYPOINT ["/usr/bin/kops"]
+CMD ["/usr/bin/kops"]
